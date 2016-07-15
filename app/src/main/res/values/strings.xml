@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Test SentGPS</string>
+    <string name="title_activity_mapshow">Map</string>
+</resources>

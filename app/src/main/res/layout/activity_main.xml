@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="mean.chan.mind.testsentgps.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#593e3c">
+
+
+    <RelativeLayout
+
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banner"
+        android:background="#7e6161">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Watch Over"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="50dp"
+        android:id="@+id/iconLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout">
+
+        <ImageView
+
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:src="@drawable/th" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttonlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconLayout"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="OnclickOk"
+            android:text="login" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button1layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonlayout"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="OnclickRegiter"
+            android:text="Regiter" />
+
+
+    </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
